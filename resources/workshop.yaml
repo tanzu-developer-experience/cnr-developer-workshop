@@ -3,8 +3,8 @@ kind: Workshop
 metadata:
   name: cnr-fundamentals
 spec:
-  title: VMware Tanzu Cloud Native Runtimes Fundamentals
-  description: A workshop that shows users hands-on how to use Tanzu Cloud Native Runtimes
+  title: Cloud Native Runtimes for VMware Tanzu Fundamentals
+  description: A workshop that shows users hands-on how to use the Cloud Native Runtimes for VMware Tanzu
   vendor: eduk8s.io
   authors:
   - Anand Rao 
