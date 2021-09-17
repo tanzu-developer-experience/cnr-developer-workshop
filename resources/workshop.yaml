@@ -21,7 +21,7 @@ spec:
     files: github.com/tanzu-developer-experience/cnr-developer-workshop
   session:
     namespaces:
-      budget: medium
+      budget: xxx-large
       limits:
         min:
           cpu: 25m
