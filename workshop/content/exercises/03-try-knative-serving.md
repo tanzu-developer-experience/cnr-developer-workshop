@@ -46,7 +46,7 @@ command: kn service create helloworld-go --image gcr.io/knative-samples/hellowor
 
 To test out the app after the deployment is ready to serve traffic, execute the following command in the terminal.
 ```terminal:execute
-command: curl $(kn service list  helloworld-go -o json  | jq --raw-output '.items[].status.url')
+command: curl -L $(kn service describe helloworld-go -o url)
 ```
 
 
