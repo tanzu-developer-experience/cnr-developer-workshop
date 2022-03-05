@@ -34,3 +34,5 @@ spec:
         vendor: octant
       editor:
         enabled: true
+      registry:
+        enabled: true
