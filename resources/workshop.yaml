@@ -8,7 +8,8 @@ spec:
   vendor: eduk8s.io
   authors:
   - Anand Rao 
-  - Craig Olrich 
+  - Craig Olrich
+  - Evan Anderson
   difficulty: intermediate
   duration: 15m
   url: https://github.com/tanzu-developer-experience/cnr-developer-workshop
@@ -33,4 +34,8 @@ spec:
         enabled: true
         vendor: octant
       editor:
+        enabled: true
+      registry:
+        enabled: true
+      docker:
         enabled: true
